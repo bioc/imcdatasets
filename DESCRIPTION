@@ -1,6 +1,6 @@
 Package: imcdatasets
-Version: 1.20.0
-Date: 2024-10-26
+Version: 1.20.1
+Date: 2026-07-20
 Title: Collection of publicly available imaging mass cytometry (IMC) datasets
 Description:
     The imcdatasets package provides access to publicly available IMC datasets.
@@ -11,9 +11,12 @@ Description:
     images and a CytoImageList object containing the cell masks that were used
     to extract the single cell data from the images.
 Authors@R:
-    c(person("Nicolas", "Damond", role = c("aut", "cre"),
+    c(person("Nicolas", "Damond", role = c("aut"),
         email = "nicolas.damond@dqbm.uzh.ch",
         comment = c(ORCID = "0000-0003-3027-8989")),
+      person("Nathan", "Steenbuck", role = c("aut", "cre"),
+        email = "nathan.steenbuck@uzh.ch", 
+        comment = c(ORCID = "0000-0003-2712-5359")),
       person("Nils", "Eling", role = c("ctb"),
         email = "nils.eling@dqbm.uzh.ch",
         comment = c(ORCID = "0000-0002-4711-1176")),
